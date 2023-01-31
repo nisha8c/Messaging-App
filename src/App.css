@@ -31,10 +31,17 @@
     display: flex;
     padding: 10px;
     border-radius: 10px;
+    background-color: #f2f2e1;
+    align-self: flex-start;
+    border: 1px solid #666;
+  }
+
+  .msg-div {
+    padding: 10px;
   }
   
   .chat-bubble[data-isowner = 'true']{
-    background-color: #f0f0f0;
+    background-color: #d3edda;
     align-self: flex-end;
   }
    

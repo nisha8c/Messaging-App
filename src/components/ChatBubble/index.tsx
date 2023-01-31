@@ -15,11 +15,13 @@ const ChatBubble: FunctionComponent<ChatBubbleProps> = ({item: {userName, time, 
   return (
     <>
     <div className="chat-bubble" data-isOwner={isOwner}>
-      <Avatar src="https://joeschmoe.io/api/v1/random" alt={userName} />
-      <div><p>{message}</p></div>
-      <Tooltip title={moment(time).format("YYYY-MM-DD HH:mm:ss")}>
-          <span>{moment(time).fromNow()}</span>
-      </Tooltip>
+      <Avatar style={{ backgroundColor: 'black'}} size="large" alt={userName}>{userName}</Avatar>
+      <div className='msg-div'>
+        <p style={{ fontSize: 20 }}>{message}</p>
+        <Tooltip title={moment(time).format("YYYY-MM-DD HH:mm:ss")}>
+            <span style={{ fontSize: 10 }}>{moment(time).fromNow()}</span>
+        </Tooltip>
+      </div>
     </div>
     </>
   );

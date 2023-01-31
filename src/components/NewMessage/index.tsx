@@ -23,7 +23,7 @@ const NewMessage: FunctionComponent<NewMessageProps> = ({onSubmit}) => {
         value={message}
         onChange={(e) => setMessage(e.target.value)}
       />
-      <Button type="primary" onClick={_onSubmit} >Submit</Button>
+      <Button type="primary" onClick={_onSubmit} >Send</Button>
     </Input.Group>
   );
 };
