@@ -1,6 +1,8 @@
 # Messaging / Chat App
 
+![1](https://user-images.githubusercontent.com/108927164/216039192-94197c0e-59b9-45e1-a9bc-63a569266c2c.jpg)
 
+![2](https://user-images.githubusercontent.com/108927164/216039198-ef8927db-71e7-45ad-9140-a6e622491132.jpg)
 
 
 This repo has client side code. 
