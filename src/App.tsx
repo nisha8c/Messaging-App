@@ -39,12 +39,10 @@ function App() {
 
   useEffect(() => {
     socket.on('chat message', (message) => {
-      console.log("message from socket", message);
       _onNewMessage(message);
     })
-  }, [])
+  }, []);
 
-  console.log("messages => ",messages)
 
   return (
     <>

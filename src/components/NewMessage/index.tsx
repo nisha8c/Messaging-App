@@ -8,7 +8,8 @@ interface NewMessageProps {
 const NewMessage: FunctionComponent<NewMessageProps> = ({onSubmit}) => {
     const [message, setMessage ] = useState<string>('');
 
-    const _onSubmit = () => {
+    const _onSubmit = (event: any) => {
+      event.preventDefault();
         if(message){
             onSubmit(message);
             setMessage('');

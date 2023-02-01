@@ -1,5 +1,8 @@
 # Messaging / Chat App
 
+
+
+
 This repo has client side code. 
 
 The server code is: https://github.com/nisha8c/chat-example-from-SocketIo
@@ -31,7 +34,15 @@ https://replit.com/@NishaChavan
 ## Links for my reference:
 https://ant.design/docs/react/use-with-create-react-app
 
+# Yet to be added:
+1. Some css
 
+# Improvement or more challenges:
+1. Would like to create my own sms API.
+2. ChatBubble can be replaced with some better option
+3. Support for smilies, pics and videos upload.
+4. sent, seen, delivered notofications
+5. some settings
 
 
 
